@@ -133,7 +133,8 @@ El código fuente del proyecto desarrollado fue cargado a un repositorio GitHub 
 La siguiente imagen evidencia que el microframework está sirviendo correctamente archivos estáticos (HTML, CSS, imágenes):
 
 ![Imagen de evidencia - Servidor sirviendo archivos estáticos](./images/imagen1.png)
-
+![Imagen de evidencia - Servidor sirviendo archivos estáticos](./images/pi.png)
+![Imagen de evidencia - Servidor sirviendo archivos estáticos](./images/pedro.png)
 ### Endpoints de prueba disponibles
 
 Con el servidor en ejecución (`mvn exec:java`), es posible probar:
