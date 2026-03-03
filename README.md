@@ -63,6 +63,7 @@ mvn clean test
 2. Iniciar el servidor demo:
 
 ```bash
+mvn clean compile
 mvn exec:java
 ```
 
@@ -200,14 +201,7 @@ curl -i "http://localhost:8080/ruta/inexistente"
 # Respuesta esperada: HTTP/1.1 404 Not Found
 ```
 
-## Cómo contribuir
 
-1. Clonar el repositorio
-2. Crear una rama (`git checkout -b feature/mejora`)
-3. Hacer cambios y commits
-4. Pushear la rama y crear un Pull Request
-
-## Notas de implementación
 
 - El servidor utiliza `ServerSocket` nativo de Java (sin frameworks HTTP externos) para máxima pedagogía.
 - El parsing HTTP es manual, permitiendo entender el protocolo en profundidad.
