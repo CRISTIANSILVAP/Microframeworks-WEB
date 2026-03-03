@@ -133,7 +133,9 @@ El código fuente del proyecto desarrollado fue cargado a un repositorio GitHub 
 La siguiente imagen evidencia que el microframework está sirviendo correctamente archivos estáticos (HTML, CSS, imágenes):
 
 ![Imagen de evidencia - Servidor sirviendo archivos estáticos](./images/imagen1.png)
+## pi
 ![Imagen de evidencia - Servidor sirviendo archivos estáticos](./images/pi.png)
+## Hello pedro
 ![Imagen de evidencia - Servidor sirviendo archivos estáticos](./images/pedro.png)
 ### Endpoints de prueba disponibles
 
