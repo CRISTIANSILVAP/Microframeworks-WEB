@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microframework Demo</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<h1>Microframework Web</h1>
+<p>Esta pagina se sirve como archivo estatico.</p>
+
+<h2>Imágenes servidas como archivos estáticos</h2>
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+    <div>
+        <h3>dio2.png</h3>
+        <img src="/dio2.png" alt="Dio2 Image" style="max-width: 300px; border: 2px solid #0d47a1;">
+    </div>
+    <div>
+        <h3>imagen1.png</h3>
+        <img src="/imagen1.png" alt="Imagen 1" style="max-width: 300px; border: 2px solid #0d47a1;">
+    </div>
+</div>
+
+<h2>Rutas REST disponibles</h2>
+<ul>
+    <li><a href="/App/hello?name=Pedro">/App/hello?name=Pedro</a></li>
+    <li><a href="/App/pi">/App/pi</a></li>
+</ul>
+</body>
+</html>
+
